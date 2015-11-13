@@ -1,10 +1,8 @@
-package com.ashish.springlifecycle;
+package com.ashish.beaninheritance;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.ashish.beaninheritance.HelloIndia;
-import com.ashish.beaninheritance.HelloWorld;
 
 public class BeanInheritanceMainApp {
 

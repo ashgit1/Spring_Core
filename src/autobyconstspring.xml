@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <!-- Definition for textEditor bean -->
+   <bean id="textEditor" class="com.ashish.autobyconst.TextEditor" 
+      autowire="constructor">
+      <constructor-arg value="Generic Text Editor"/>
+   </bean>
+
+   <!-- Definition for spellChecker bean -->
+   <bean id="SpellChecker" class="com.ashish.autobyconst.SpellChecker">
+   </bean>
+
+</beans>
+
+<!-- This mode is very similar to byType, but it applies to constructor arguments.
+	 if a bean definition is set to autowire by constructor in configuration file, 
+	 and it has a constructor with one of the arguments of SpellChecker type, Spring looks 
+	 for a bean definition named SpellChecker, and uses it to set the constructor's argument 
+-->
