@@ -1,0 +1,29 @@
+1) The _____ is responsible for managing object lifecycles: creating objects, calling initialization methods, 
+and configuring objects by wiring them together.
+
+a) Inversion of Control container
+b) Aspect-oriented programming
+c) Remote Access framework
+d) All of the above
+
+2)	Which of the following package of Spring supports the feature of removing code duplication between classes that are not in the same hierarchy?
+a) Spring ORM
+b) Spring DAO
+c) Spring Web MVC
+d) Spring AOP
+
+3)	In  Spring Which one is essentially a registry of application objects?
+
+a) Spring ApplicationContext
+b) Spring BeanContext
+c) Spring RemoteContext
+d) Spring DatabaseContext
+
+4)	Which is a design pattern that alleviates application objects from the responsibility of creating, and managing their dependencies
+
+a) Remote Access framework
+b) Aspect-oriented programming
+c) Inversion of Control
+d) None of the above
+
+Ans: 1-->a, 2-->d, 3-->a, 4--> c
