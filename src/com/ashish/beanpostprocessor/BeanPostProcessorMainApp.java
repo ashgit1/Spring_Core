@@ -12,6 +12,13 @@ public class BeanPostProcessorMainApp {
 
 		BeanPostProcessorBean obj = (BeanPostProcessorBean) context.getBean("beanPostProcessor");
 	    obj.getMessage();
+	    
+	    System.out.println("---------------------------------------------------------------------------");
+	    
+	    BeanPostProcessorBean obj1 = (BeanPostProcessorBean) context.getBean("beanPostProcessor");
+	    obj1.getMessage();
+	    
+	    
 	    context.registerShutdownHook();
 	}
 
