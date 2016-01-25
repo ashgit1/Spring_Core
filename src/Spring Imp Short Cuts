@@ -1,0 +1,49 @@
+1.
+Annotation injection is performed before XML injection, thus the latter configuration will override 
+the former for properties wired through both approaches.
+
+2.
+<context:annotation-config/>
+
+3.
+<context:component-scan base-package="com.tutorialspoint" />
+
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+      <property name="prefix" value="/WEB-INF/jsp/" />
+      <property name="suffix" value=".jsp" />
+</bean>
+
+4.
+When Spring finds an @Autowired annotation used with setter methods, 
+it tries to perform byType autowiring on the method.
+You can use @Autowired annotation on properties to get rid of the setter methods.
+A constructor @Autowired annotation indicates that the constructor should be autowired when creating the bean, 
+even if no <constructor-arg> elements are used while configuring the bean in XML file
+@Autowired annotation implies the dependency is required similar to @Required annotation, 
+however, you can turn off the default behavior by using (required=false) option with @Autowired.
+
+5.
+@Resource annotation takes a 'name' attribute which will be interpreted as the bean name to be injected
+@Resource(name= "spellChecker")
+public void setSpellChecker( SpellChecker spellChecker ){
+      this.spellChecker = spellChecker;
+}
+
+Java based configuration:
+-------------------------
+
+@Configuration & @Bean Annotations
+
+ApplicationContext ctx = new AnnotationConfigApplicationContext(HelloWorldConfig.class);
+
+
+
+
+
+
+
+
+
+
+
+
