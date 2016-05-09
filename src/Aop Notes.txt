@@ -38,7 +38,12 @@ Steps in AOP:
 
 ===========================================================================================================================================
 
+ Tutorial 25 : Setting up AOP
+ -----------------------------
 
+ Dependencies:- 
+* We need the Spring depency jars as usual for any spring project.
+* AspectJ : aspectjrt.jar, aspectjweaver.jar, aopalliance.jar, cgilib.jar, asm-3.3.1.jar
 
 ===========================================================================================================================================
 
