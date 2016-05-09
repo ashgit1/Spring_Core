@@ -12,5 +12,9 @@
    <bean id="cStartEventHandler" class="com.ashish.eventhandling.CStartEventHandler"/>
 
    <bean id="cStopEventHandler" class="com.ashish.eventhandling.CStopEventHandler"/>
+   
+   <bean id="cRefreshEventHandler" class="com.ashish.eventhandling.CRefreshEventHandler"/>
+   
+   <bean id="cCloseEventHandler" class="com.ashish.eventhandling.CCloseEventHandler"/>
 
 </beans>

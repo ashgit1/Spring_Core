@@ -14,7 +14,7 @@
       <property name="name"  value="Ashishkumar Gupta" />
 
       <!-- try without passing age and check the result. It will give null -->
-      <property name="age"  value="25"/>
+     <!--  <property name="age"  value="25"/> -->
    </bean>
 
 </beans>

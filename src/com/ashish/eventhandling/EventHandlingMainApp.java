@@ -5,7 +5,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class EventHandlingMainApp {
 	
-@SuppressWarnings("resource")
 public static void main(String[] args) {
 	
       ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("eventhandlingspring.xml");
@@ -17,6 +16,17 @@ public static void main(String[] args) {
 
       // Let us raise a stop event.
       context.stop();
+      
+      // Let us refresh the context
+      context.refresh();
+      
+      // Let us close the application context
+      context.close();
+      
+      /*After closing the application context it will not open again.
+      A closed context reaches its end of life; it cannot be refreshed or restarted.*/
+      context.start();
+      
    }
 }
 

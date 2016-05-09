@@ -14,8 +14,7 @@
       <property name="name"  value="Ashishkumar Gupta" />
 
       <!-- try without passing age and check the result -->
-      <!-- property name="age"  value="11"-->
-      <property name="age"  value="26"/>
+      <!-- property name="age"  value="16"-->
    </bean>
 
 </beans>

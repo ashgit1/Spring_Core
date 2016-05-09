@@ -1,0 +1,68 @@
+Important Points:
+-----------------
+1. Annotation injection is performed before XML injection, thus the latter configuration will override the former 
+for properties wired through both approaches.
+
+2. Annotation wiring is not turned on in the Spring container by default. 
+So, before we can use annotation-based wiring, we will need to enable it in our Spring configuration file. 
+<context:annotation-config/>
+   <!-- bean definitions go here -->
+
+1. @Required:
+-------------
+   
+The @Required annotation applies to bean property setter methods and it indicates that the affected bean 
+property must be populated in XML configuration file at configuration time otherwise the container 
+throws a BeanInitializationException exception
+
+2. @Autowired:
+--------------
+
+You can use @Autowired annotation on setter methods to get rid of the <property> element in XML configuration file. 
+When Spring finds an @Autowired annotation used with setter methods, it tries to perform byType autowiring on the method.
+
+You can use @Autowired annotation on properties to get rid of the setter methods. 
+
+A constructor @Autowired annotation indicates that the constructor should be autowired when creating the bean, even if no 
+<constructor-arg> elements are used while configuring the bean in XML file.
+
+By default, the @Autowired annotation implies the dependency is required similar to @Required annotation, 
+however, you can turn off the default behavior by using (required=false) option with @Autowired
+ex: @Autowired(required=false)
+
+3. @Qualifier:
+--------------
+
+There may be a situation when you create more than one bean of the same type and want to wire only one of them 
+with a property, in such case you can use @Qualifier annotation along with @Autowired to remove the confusion 
+by specifying which exact bean will be wired.
+
+4. @Spring JSR-250 Annotations:
+-------------------------------
+
+@PostConstruct annotation as an alternate of initialization callback,
+@PreDestroy annotation as an alternate of destruction callback 
+@Resource annotation takes a 'name' attribute which will be interpreted as the bean name to be injected. 
+You can say, it follows by-name autowiring semantics.
+We can use @Resource annotation on fields or setter methods.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

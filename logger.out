@@ -2,60 +2,55 @@ Initializing new StandardEnvironment
 Adding [systemProperties] PropertySource with lowest search precedence
 Adding [systemEnvironment] PropertySource with lowest search precedence
 Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4a89eb77: startup date [Mon Jan 25 13:04:35 IST 2016]; root of context hierarchy
-Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@4a89eb77: org.springframework.beans.factory.support.DefaultListableBeanFactory@32482417: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,callBackAppConfig]; root of factory hierarchy
-Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
-Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
-Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
-Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
-Registering bean definition for @Bean method com.ashish.javaannotation.others.CallBackAppConfig.foo()
-Successfully enhanced com.ashish.javaannotation.others.CallBackAppConfig; enhanced class name is: com.ashish.javaannotation.others.CallBackAppConfig$$EnhancerByCGLIB$$d1d1fba7
-Replacing bean definition 'callBackAppConfig' existing class name 'com.ashish.javaannotation.others.CallBackAppConfig' with enhanced class name 'com.ashish.javaannotation.others.CallBackAppConfig$$EnhancerByCGLIB$$d1d1fba7'
-Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
-Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
-Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
-Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
-Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
-Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
-Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
-Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
-Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
-Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
-Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
-Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
-Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
-Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
-Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
-Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
-Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@373246f3]
-Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@615a8006]
-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@32482417: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,callBackAppConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,foo]; root of factory hierarchy
-Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
-Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
-Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
-Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
-Creating shared instance of singleton bean 'callBackAppConfig'
-Creating instance of bean 'callBackAppConfig'
-Eagerly caching bean 'callBackAppConfig' to allow for resolving potential circular references
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: startup date [Sun May 08 19:53:18 IST 2016]; root of context hierarchy
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [eventhandlingspring.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.2.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.1.xsd=org/springframework/oxm/config/spring-oxm-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+Loading bean definitions
+Loaded 5 bean definitions from location pattern [eventhandlingspring.xml]
+Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: org.springframework.beans.factory.support.DefaultListableBeanFactory@4a7aaee9: defining beans [helloWorld,cStartEventHandler,cStopEventHandler,cRefreshEventHandler,cCloseEventHandler]; root of factory hierarchy
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@606fdb4b]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@72c3da75]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4a7aaee9: defining beans [helloWorld,cStartEventHandler,cStopEventHandler,cRefreshEventHandler,cCloseEventHandler]; root of factory hierarchy
+Creating shared instance of singleton bean 'helloWorld'
+Creating instance of bean 'helloWorld'
+Eagerly caching bean 'helloWorld' to allow for resolving potential circular references
 Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
-Getting BeanInfo for class [com.ashish.javaannotation.others.CallBackAppConfig$$EnhancerByCGLIB$$d1d1fba7]
-Caching PropertyDescriptors for class [com.ashish.javaannotation.others.CallBackAppConfig$$EnhancerByCGLIB$$d1d1fba7]
-Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+Getting BeanInfo for class [com.ashish.eventhandling.HelloWorld]
+Caching PropertyDescriptors for class [com.ashish.eventhandling.HelloWorld]
 Found bean property 'class' of type [java.lang.Class]
-Finished creating instance of bean 'callBackAppConfig'
-Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
-Creating shared instance of singleton bean 'foo'
-Creating instance of bean 'foo'
-Returning cached instance of singleton bean 'callBackAppConfig'
-Eagerly caching bean 'foo' to allow for resolving potential circular references
-Getting BeanInfo for class [com.ashish.javaannotation.others.Foo]
-Caching PropertyDescriptors for class [com.ashish.javaannotation.others.Foo]
-Found bean property 'class' of type [java.lang.Class]
-Invoking init method  'init' on bean with name 'foo'
-Finished creating instance of bean 'foo'
-Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@632b6836]
+Found bean property 'message' of type [java.lang.String]
+Finished creating instance of bean 'helloWorld'
+Creating shared instance of singleton bean 'cStartEventHandler'
+Creating instance of bean 'cStartEventHandler'
+Eagerly caching bean 'cStartEventHandler' to allow for resolving potential circular references
+Finished creating instance of bean 'cStartEventHandler'
+Creating shared instance of singleton bean 'cStopEventHandler'
+Creating instance of bean 'cStopEventHandler'
+Eagerly caching bean 'cStopEventHandler' to allow for resolving potential circular references
+Finished creating instance of bean 'cStopEventHandler'
+Creating shared instance of singleton bean 'cRefreshEventHandler'
+Creating instance of bean 'cRefreshEventHandler'
+Eagerly caching bean 'cRefreshEventHandler' to allow for resolving potential circular references
+Finished creating instance of bean 'cRefreshEventHandler'
+Creating shared instance of singleton bean 'cCloseEventHandler'
+Creating instance of bean 'cCloseEventHandler'
+Eagerly caching bean 'cCloseEventHandler' to allow for resolving potential circular references
+Finished creating instance of bean 'cCloseEventHandler'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@4a4b1761]
 Returning cached instance of singleton bean 'lifecycleProcessor'
-Publishing event in org.springframework.context.annotation.AnnotationConfigApplicationContext@4a89eb77: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.annotation.AnnotationConfigApplicationContext@4a89eb77: startup date [Mon Jan 25 13:04:35 IST 2016]; root of context hierarchy]
+Publishing event in org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: startup date [Sun May 08 19:53:18 IST 2016]; root of context hierarchy]
+Returning cached instance of singleton bean 'cStartEventHandler'
+Returning cached instance of singleton bean 'cStopEventHandler'
+Returning cached instance of singleton bean 'cRefreshEventHandler'
+Returning cached instance of singleton bean 'cCloseEventHandler'
 getProperty("spring.liveBeansView.mbeanDomain", String)
 Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
 Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
@@ -64,10 +59,94 @@ PropertySource [systemEnvironment] does not contain 'spring_liveBeansView_mbeanD
 PropertySource [systemEnvironment] does not contain 'SPRING.LIVEBEANSVIEW.MBEANDOMAIN'
 PropertySource [systemEnvironment] does not contain 'SPRING_LIVEBEANSVIEW_MBEANDOMAIN'
 Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
-Returning cached instance of singleton bean 'foo'
-Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4a89eb77: startup date [Mon Jan 25 13:04:35 IST 2016]; root of context hierarchy
-Publishing event in org.springframework.context.annotation.AnnotationConfigApplicationContext@4a89eb77: org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.annotation.AnnotationConfigApplicationContext@4a89eb77: startup date [Mon Jan 25 13:04:35 IST 2016]; root of context hierarchy]
 Returning cached instance of singleton bean 'lifecycleProcessor'
-Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@32482417: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,callBackAppConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,foo]; root of factory hierarchy
-Invoking destroy method 'cleanup' on bean with name 'foo'
-Invoking destroy() on bean with name 'callBackAppConfig'
+Publishing event in org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: org.springframework.context.event.ContextStartedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: startup date [Sun May 08 19:53:18 IST 2016]; root of context hierarchy]
+Returning cached instance of singleton bean 'cStartEventHandler'
+Returning cached instance of singleton bean 'cStopEventHandler'
+Returning cached instance of singleton bean 'cRefreshEventHandler'
+Returning cached instance of singleton bean 'cCloseEventHandler'
+Returning cached instance of singleton bean 'helloWorld'
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Publishing event in org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: org.springframework.context.event.ContextStoppedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: startup date [Sun May 08 19:53:18 IST 2016]; root of context hierarchy]
+Returning cached instance of singleton bean 'cStartEventHandler'
+Returning cached instance of singleton bean 'cStopEventHandler'
+Returning cached instance of singleton bean 'cRefreshEventHandler'
+Returning cached instance of singleton bean 'cCloseEventHandler'
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: startup date [Sun May 08 19:53:20 IST 2016]; root of context hierarchy
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4a7aaee9: defining beans [helloWorld,cStartEventHandler,cStopEventHandler,cRefreshEventHandler,cCloseEventHandler]; root of factory hierarchy
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [eventhandlingspring.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.2.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.1.xsd=org/springframework/oxm/config/spring-oxm-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+Loading bean definitions
+Loaded 5 bean definitions from location pattern [eventhandlingspring.xml]
+Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: org.springframework.beans.factory.support.DefaultListableBeanFactory@8dc488c: defining beans [helloWorld,cStartEventHandler,cStopEventHandler,cRefreshEventHandler,cCloseEventHandler]; root of factory hierarchy
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@2602613b]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@663d7bfb]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8dc488c: defining beans [helloWorld,cStartEventHandler,cStopEventHandler,cRefreshEventHandler,cCloseEventHandler]; root of factory hierarchy
+Creating shared instance of singleton bean 'helloWorld'
+Creating instance of bean 'helloWorld'
+Eagerly caching bean 'helloWorld' to allow for resolving potential circular references
+Finished creating instance of bean 'helloWorld'
+Creating shared instance of singleton bean 'cStartEventHandler'
+Creating instance of bean 'cStartEventHandler'
+Eagerly caching bean 'cStartEventHandler' to allow for resolving potential circular references
+Finished creating instance of bean 'cStartEventHandler'
+Creating shared instance of singleton bean 'cStopEventHandler'
+Creating instance of bean 'cStopEventHandler'
+Eagerly caching bean 'cStopEventHandler' to allow for resolving potential circular references
+Finished creating instance of bean 'cStopEventHandler'
+Creating shared instance of singleton bean 'cRefreshEventHandler'
+Creating instance of bean 'cRefreshEventHandler'
+Eagerly caching bean 'cRefreshEventHandler' to allow for resolving potential circular references
+Finished creating instance of bean 'cRefreshEventHandler'
+Creating shared instance of singleton bean 'cCloseEventHandler'
+Creating instance of bean 'cCloseEventHandler'
+Eagerly caching bean 'cCloseEventHandler' to allow for resolving potential circular references
+Finished creating instance of bean 'cCloseEventHandler'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@7c5cc270]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Publishing event in org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: startup date [Sun May 08 19:53:20 IST 2016]; root of context hierarchy]
+Returning cached instance of singleton bean 'cStartEventHandler'
+Returning cached instance of singleton bean 'cStopEventHandler'
+Returning cached instance of singleton bean 'cRefreshEventHandler'
+Returning cached instance of singleton bean 'cCloseEventHandler'
+getProperty("spring.liveBeansView.mbeanDomain", String)
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+PropertySource [systemEnvironment] does not contain 'spring.liveBeansView.mbeanDomain'
+PropertySource [systemEnvironment] does not contain 'spring_liveBeansView_mbeanDomain'
+PropertySource [systemEnvironment] does not contain 'SPRING.LIVEBEANSVIEW.MBEANDOMAIN'
+PropertySource [systemEnvironment] does not contain 'SPRING_LIVEBEANSVIEW_MBEANDOMAIN'
+Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+Closing org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: startup date [Sun May 08 19:53:20 IST 2016]; root of context hierarchy
+Publishing event in org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: startup date [Sun May 08 19:53:20 IST 2016]; root of context hierarchy]
+Returning cached instance of singleton bean 'cStartEventHandler'
+Returning cached instance of singleton bean 'cStopEventHandler'
+Returning cached instance of singleton bean 'cRefreshEventHandler'
+Returning cached instance of singleton bean 'cCloseEventHandler'
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8dc488c: defining beans [helloWorld,cStartEventHandler,cStopEventHandler,cRefreshEventHandler,cCloseEventHandler]; root of factory hierarchy
+Publishing event in org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: org.springframework.context.event.ContextStartedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@613cc996: startup date [Sun May 08 19:53:20 IST 2016]; root of context hierarchy]
+Creating shared instance of singleton bean 'cStartEventHandler'
+Creating instance of bean 'cStartEventHandler'
+Eagerly caching bean 'cStartEventHandler' to allow for resolving potential circular references
+Finished creating instance of bean 'cStartEventHandler'
+Creating shared instance of singleton bean 'cStopEventHandler'
+Creating instance of bean 'cStopEventHandler'
+Eagerly caching bean 'cStopEventHandler' to allow for resolving potential circular references
+Finished creating instance of bean 'cStopEventHandler'
+Creating shared instance of singleton bean 'cRefreshEventHandler'
+Creating instance of bean 'cRefreshEventHandler'
+Eagerly caching bean 'cRefreshEventHandler' to allow for resolving potential circular references
+Finished creating instance of bean 'cRefreshEventHandler'
+Creating shared instance of singleton bean 'cCloseEventHandler'
+Creating instance of bean 'cCloseEventHandler'
+Eagerly caching bean 'cCloseEventHandler' to allow for resolving potential circular references
+Finished creating instance of bean 'cCloseEventHandler'

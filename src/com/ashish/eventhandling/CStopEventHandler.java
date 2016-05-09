@@ -7,7 +7,7 @@ public class CStopEventHandler implements ApplicationListener<ContextStoppedEven
 
 	@Override
 	public void onApplicationEvent(ContextStoppedEvent event) {
-		System.out.println("ContextStoppedEvent Received");
+		System.out.println("Context StoppedEvent Received");
 	}
 
    
