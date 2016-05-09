@@ -47,6 +47,14 @@ Steps in AOP:
 
 ===========================================================================================================================================
 
+Tutorial 26 - Writing Our First Aspect Part 1
+----------------------------------------------
 
+Use Case : We will create a shape service to get the required shape object.
+In order to create the spring.xml file we need to include namespace for "aspectj-auto" to include <aop:> tags. Search for a file and copy
+its header information having the above namespace. <aop: aspectj-autoproxy>
+
+Here we have created a simple Spring flow where we are calling the getName() on shapeService to get the name of the subclass object.
+What we will do in next tutorial is when ever we are calling the getName() we will create "Logging" aspect to record it.
 
 ===========================================================================================================================================
