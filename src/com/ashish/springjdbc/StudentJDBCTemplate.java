@@ -60,9 +60,9 @@ private JdbcTemplate jdbcTemplateObject;
    
    public void createStudent(){
 	   String createStudent = "CREATE TABLE Student( " +
-			   		"ID   INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1), " +
+			   		"ID   INT NOT NULL AUTO_INCREMENT, " +
 			   		"NAME VARCHAR(50) NOT NULL, " +
-			   		"AGE  INTEGER NOT NULL," +
+			   		"AGE  INT NOT NULL," +
 			   		"PRIMARY KEY (ID))";
 	   
 		jdbcTemplateObject.execute(createStudent);
