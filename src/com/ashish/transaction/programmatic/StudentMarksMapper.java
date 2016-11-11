@@ -14,7 +14,7 @@ public class StudentMarksMapper implements RowMapper<StudentMarks> {
       studentMarks.setAge(rs.getInt("age"));
       studentMarks.setSid(rs.getInt("sid"));
       studentMarks.setMarks(rs.getInt("marks"));
-      studentMarks.setYear(rs.getInt("yeear"));
+      studentMarks.setYear(rs.getInt("year"));
 
       return studentMarks;
    }

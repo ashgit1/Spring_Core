@@ -13,10 +13,10 @@ public static void main(String[] args) {
 
       StudentJDBCTemplate studentJDBCTemplate =  (StudentJDBCTemplate)context.getBean("studentJDBCTemplate");
       
-      System.out.println("------Records creation--------\n" );
+      /*System.out.println("------Records creation--------\n" );
       studentJDBCTemplate.create("Ashish", 26, 99, 2010);
       studentJDBCTemplate.create("Tanya", 25, 97, 2010);
-      studentJDBCTemplate.create("Rahul", 27, 100, 2011);
+      studentJDBCTemplate.create("Rahul", 27, 100, 2011);*/
 
       System.out.println("\n------Listing all the records--------\n" );
       List<StudentMarks> studentMarks = studentJDBCTemplate.listStudents();
