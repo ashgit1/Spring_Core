@@ -24,7 +24,7 @@ public void create(String name, Integer age, Integer marks, Integer year){
          String SQL2 = "select max(id) from Student";
          int sid = jdbcTemplateObject.queryForInt( SQL2 );
 
-         String SQL3 = "insert into Marks(sid, marks, yeear) " + 
+         String SQL3 = "insert into Marks(sid, marks, year) " + 
                        "values (?, ?, ?)";
          jdbcTemplateObject.update( SQL3, sid, marks, year);
 
